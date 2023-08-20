@@ -2,15 +2,16 @@ body {
     background: #000000;
     color: #fff;
 }
+
 aside {
     float: left;
+    text-decoration: none;
     background: #181818;
     width: 15%;
     padding: 1.5%;
     height: 100vh;
     color: #fff;
     border-right: 5px solid #4d4d4d;
-    text-decoration: none;
 }
 
 aside .logo {
@@ -36,13 +37,26 @@ aside ul li{
     transition: all .6s ease;
 }
 
+aside ul a {
+    text-decoration: none;
+}
 
-aside ul li:hover, aside ul a:hover{
+
+aside ul li:hover, aside ul a:hover {
     color: #eb7979;
     text-decoration: none;
     transform: scale(1.1);
 }
 
-main {text-align: center
+main .features{
+    text-align: center;
+}
+main .features h1 {font-size:50px; text-align: left}
+main .features p {max_width:400px, margin=50px auto}
 
+.alert-warning {
+    float: center;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left
 }

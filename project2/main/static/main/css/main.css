@@ -58,5 +58,11 @@ main .features p {max_width:400px, margin=50px auto}
     float: center;
     width: 400px;
     margin: 20px 34%;
-    text-align: left
+    text-align: left;
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
 }
